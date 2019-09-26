@@ -1,6 +1,5 @@
-# Data-Structures
+# Data Structures & Algorithms
 
-Data-Structures repository contains
 
 array
 
