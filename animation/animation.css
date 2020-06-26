@@ -1,0 +1,43 @@
+:root{
+    --position-left: 0px;
+    --position-top: 0px;
+}
+body {
+    background-color: rgb(33, 33, 48);
+}
+
+.container {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.center-circle {
+    position: fixed;
+    margin: 20% 48%;
+    background-color: honeydew;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.circle {
+    position: fixed;
+    background-color: honeydew;
+    border-radius: 10px;
+    height: 10px;
+    width: 10px;
+    animation: anim 500ms 2;
+    animation-direction: alternate;
+    animation-delay: 500ms;
+}
+
+
+@keyframes anim {
+    0% {}
+
+    100% {
+        margin: 21% 49%;
+    }
+}
